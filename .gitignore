@@ -1,0 +1,20 @@
+# Secrets and local settings: never commit these
+.env
+.env.*
+!.env.example
+.claude/settings.local.json
+
+# Dependencies and build output
+node_modules/
+.next/
+.vercel/
+.data/
+*.tsbuildinfo
+
+# Exported copies of the code
+*.zip
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "receipts",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "expense-tracker", "run", "dev"],
+      "port": 3000
+    }
+  ]
+}
